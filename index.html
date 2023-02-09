@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <div class="btn-cont">
+    <button type="button" onclick="doSomething()">Click me!</button>
+    <button type="button" oncontextmenu="doSomething1()">Right click!</button>
+    <button type="button" ondblclick="doSomething2()">Double click!</button>
+    <button type="button" onmouseover="doSomething3()">On mouse over!</button>
+    <button type="button" onmouseout="doSomething4()">Out!!!</button>
+</div>
+
+
+    <script>
+
+function doSomething() {
+    alert('You clicked');
+}
+function doSomething1() {
+    alert('You right clicked');
+}
+function doSomething2() {
+    alert('You double clicked');
+}
+function doSomething3() {
+    alert('You hovered over');
+}
+function doSomething4() {
+    alert('You moved your mouse out');
+}
+    </script>
+
+</body>
+</html>
